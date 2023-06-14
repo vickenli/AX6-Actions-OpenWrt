@@ -47,7 +47,7 @@ sed -i 's/cn.pool.ntp.org/pool.ntp.org/' package/base-files/files/bin/config_gen
 
 # Modify default LAN ip
 echo 'Modify default LAN IP...'
-sed -i 's/192.168.1.1/192.168.31.1/' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.1/' package/base-files/files/bin/config_generate
 
 # sysctl -a
 # fix v2ray too many open files
