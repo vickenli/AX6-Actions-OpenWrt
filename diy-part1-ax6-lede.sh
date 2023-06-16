@@ -11,7 +11,7 @@
 #
 
 # Uncomment a feed source
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # https://stackoverflow.com/questions/3731513/how-do-you-type-a-tab-in-a-bash-here-document
 TAB=$'\t'
